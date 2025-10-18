@@ -17,7 +17,7 @@ export default function ProtectedLayout({ children }: { children: ReactNode }) {
     }
   }, [user, router]);
 
-  // While we’re checking—don’t render anything
+
   if (!user || !user.id) {
     return null;
   }

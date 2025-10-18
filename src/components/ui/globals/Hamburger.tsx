@@ -58,6 +58,9 @@ const HamburgerMenu = () => {
               <Link href="/explore" className="px-4 py-2 hover:bg-blue-700 hover:text-white">
                 Explore
               </Link>
+              <Link href="/interview" className="px-4 py-2 hover:bg-blue-700 hover:text-white">
+                Interview
+              </Link>
               <Link href="/create-quiz" className="px-4 py-2 hover:bg-blue-700 hover:text-white">
                 Create Quiz
               </Link>
