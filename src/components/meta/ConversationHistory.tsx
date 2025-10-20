@@ -60,7 +60,7 @@ const ConversationHistory = ({ fullTranscript }) => {
                 <Bot className="w-4 h-4 text-green-600" />
               )}
               <span className="text-xs font-bold text-gray-700">
-                {item.speaker === 'user' ? 'You' : 'AI Assistant'}
+                {item.speaker === 'user' ? 'You' : 'Denver'}
               </span>
 
               {item.expression && (
